@@ -10,17 +10,19 @@ body {
 Add some style blocks below this line to style the card.
 */
 
-.page-section {
+div{
     box-sizing: border-box;
-    border: solid 2px #000000; 
-    width: 50vh;
-    height: 60vh;   
-    margin: 10px;
-    /*
-    Alternative syntax:
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    */
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+section {
+    box-sizing: border-box;
+    border: solid 1px #aaaaaa; 
+    width:300px;
+    height:500px;   
+    margin: 10px
+    
 }
